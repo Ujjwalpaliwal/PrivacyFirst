@@ -1,0 +1,22 @@
+{
+  "name": "prifir",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "prifir": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/cli.js"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@privacyfirst/connect": "^0.1.0",
+    "@privacyfirst/proxy": "^0.1.0",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}
